@@ -19,13 +19,17 @@ const SearchParams = () => {
     setPets(animals || []);
   }
 
-  useEffect(() => {
+  async function fetchData() {
     setBreeds([]);
     setBreed("");
-    pet.breeds(animal).then(({ breeds: apibreeds }) => {
-      const breedStrings = apibreeds.map(({ name }) => name);
-      setBreeds(breedStrings);
-    }, console.error);
+    const { breeds: apibreeds } = await pet.breeds(animal);
+    const breedStrings = apibreeds.map(({ name }) => name);
+    setBreeds(breedStrings);
+  }
+
+  useEffect(() => {
+    fetchData();
+    //eslint-disable-next-line
   }, [animal, setBreed, setBreeds]);
 
   return (
