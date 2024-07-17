@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T07:23:02.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.4" etag="mHjQNBwWEAWEfbKvOWbX" type="github">
-  <diagram name="Page-1" id="RCJK92JgkIpZ5ffQ0cAp">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-07-17T07:26:49.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="EC7ZbJp_bm8n27FzWhUw" version="24.7.0" type="github">
+  <diagram name="Healthcare Monitoring System" id="RCJK92JgkIpZ5ffQ0cAp">
+    <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-1" value="Sensors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-2" value="Gateway Devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-3" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-4" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-5" value="Data Ingestion Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-6" value="Stream Processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-7" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-8" value="Real-Time Data Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-9" value="Historical Data Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-10" value="Batch Processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-11" value="Machine Learning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-12" value="User Interface (Web/Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-13" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-1" target="-xu2i4agDCyX6zZIiKQX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-14" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-2" target="-xu2i4agDCyX6zZIiKQX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-15" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-3" target="-xu2i4agDCyX6zZIiKQX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-16" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-4" target="-xu2i4agDCyX6zZIiKQX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-17" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-4" target="-xu2i4agDCyX6zZIiKQX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-18" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-5" target="-xu2i4agDCyX6zZIiKQX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-19" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-6" target="-xu2i4agDCyX6zZIiKQX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-20" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-6" target="-xu2i4agDCyX6zZIiKQX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-21" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-8" target="-xu2i4agDCyX6zZIiKQX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-22" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-9" target="-xu2i4agDCyX6zZIiKQX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-23" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-10" target="-xu2i4agDCyX6zZIiKQX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-24" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-11" target="-xu2i4agDCyX6zZIiKQX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-xu2i4agDCyX6zZIiKQX-25" edge="1" parent="1" source="-xu2i4agDCyX6zZIiKQX-10" target="-xu2i4agDCyX6zZIiKQX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
